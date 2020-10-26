@@ -3,6 +3,7 @@ import SearchBox from '../../components/search-box/SearchBox';
 import CardList from '../../components/card-list/CardList';
 import './App.css';
 import Scroll from '../../components/scroll/Scroll';
+import ErrorBoundry from '../error-boundry/ErrorBoundry'
 
 class App extends Component {
 
@@ -19,12 +20,9 @@ class App extends Component {
     }
 
     componentDidMount = () => {
-
         fetch('https://jsonplaceholder.typicode.com/users')
         .then(response => response.json())
         .then(users => this.setState({ robots : users }));
-        
-        console.log("Did mount");
     }
 
     render() {
@@ -39,7 +37,9 @@ class App extends Component {
                     <h1 className='f1'>RoboFriends</h1>
                     <SearchBox placeholder='Seacrh robots' onSearchChange={this.onSearchChange}/>
                     <Scroll>
-                        <CardList robots={filteredRobots}/>
+                        <ErrorBoundry>
+                            <CardList robots={filteredRobots}/>
+                        </ErrorBoundry>
                     </Scroll>
                 </div>
             );

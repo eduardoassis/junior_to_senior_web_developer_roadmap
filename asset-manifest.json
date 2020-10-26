@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/eduardoassis/junior_to_senior_web_developer_roadmap/tree/master/robofriends/static/css/main.10f3bf52.chunk.css",
+    "main.js": "/eduardoassis/junior_to_senior_web_developer_roadmap/tree/master/robofriends/static/js/main.15a7e286.chunk.js",
+    "main.js.map": "/eduardoassis/junior_to_senior_web_developer_roadmap/tree/master/robofriends/static/js/main.15a7e286.chunk.js.map",
+    "runtime-main.js": "/eduardoassis/junior_to_senior_web_developer_roadmap/tree/master/robofriends/static/js/runtime-main.d8be39ef.js",
+    "runtime-main.js.map": "/eduardoassis/junior_to_senior_web_developer_roadmap/tree/master/robofriends/static/js/runtime-main.d8be39ef.js.map",
+    "static/css/2.3c03f26f.chunk.css": "/eduardoassis/junior_to_senior_web_developer_roadmap/tree/master/robofriends/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.f07572ac.chunk.js": "/eduardoassis/junior_to_senior_web_developer_roadmap/tree/master/robofriends/static/js/2.f07572ac.chunk.js",
+    "static/js/2.f07572ac.chunk.js.map": "/eduardoassis/junior_to_senior_web_developer_roadmap/tree/master/robofriends/static/js/2.f07572ac.chunk.js.map",
+    "index.html": "/eduardoassis/junior_to_senior_web_developer_roadmap/tree/master/robofriends/index.html",
+    "precache-manifest.07c1b97afa842b9befb9e398e8d261b2.js": "/eduardoassis/junior_to_senior_web_developer_roadmap/tree/master/robofriends/precache-manifest.07c1b97afa842b9befb9e398e8d261b2.js",
+    "service-worker.js": "/eduardoassis/junior_to_senior_web_developer_roadmap/tree/master/robofriends/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "/eduardoassis/junior_to_senior_web_developer_roadmap/tree/master/robofriends/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.10f3bf52.chunk.css.map": "/eduardoassis/junior_to_senior_web_developer_roadmap/tree/master/robofriends/static/css/main.10f3bf52.chunk.css.map",
+    "static/js/2.f07572ac.chunk.js.LICENSE.txt": "/eduardoassis/junior_to_senior_web_developer_roadmap/tree/master/robofriends/static/js/2.f07572ac.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/eduardoassis/junior_to_senior_web_developer_roadmap/tree/master/robofriends/static/media/SEGA.12a3db8b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d8be39ef.js",
+    "static/css/2.3c03f26f.chunk.css",
+    "static/js/2.f07572ac.chunk.js",
+    "static/css/main.10f3bf52.chunk.css",
+    "static/js/main.15a7e286.chunk.js"
+  ]
+}

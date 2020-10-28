@@ -14,14 +14,11 @@ function App() {
         setSearchfield(event.target.value);        
     }
 
-/*    componentDidMount = () => {
-    }
-*/
     useEffect(() =>{
         fetch('https://jsonplaceholder.typicode.com/users')
         .then(response => response.json())
         .then(users => setRobots(users));
-    })
+    }, [])
 
     const filteredRobots = robots.filter(robot => {
         return robot.name.toLocaleLowerCase().includes(searchfield.toLocaleLowerCase());

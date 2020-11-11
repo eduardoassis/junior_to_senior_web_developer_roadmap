@@ -6,10 +6,11 @@ import 'tachyons'
 import App from './containers/app/App';
 import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux';
-import { createStore } from 'redux'; 
+import { applyMiddleware, createStore } from 'redux'; 
 import { searchRobots } from './redux/reducers';
 
-const store = createStore(searchRobots);
+const logger = createLogger();
+const store = createStore(searchRobots, applyMiddleware(logger));
 
 ReactDOM.render(
   <React.StrictMode>

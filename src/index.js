@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { createLogger } from 'redux-logger';
 import './index.css';
 import 'tachyons'
 import App from './containers/app/App';
